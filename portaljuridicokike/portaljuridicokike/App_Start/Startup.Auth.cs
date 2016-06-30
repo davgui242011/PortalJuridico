@@ -54,9 +54,9 @@ namespace portaljuridicokike
             //   consumerKey: "",
             //   consumerSecret: "");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            app.UseFacebookAuthentication(
+               appId: "923763254419549",
+               appSecret: "1f411e6706f363ae8e320f9eb89e52fb");
 
             app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             {
