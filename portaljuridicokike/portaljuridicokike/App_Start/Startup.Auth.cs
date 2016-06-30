@@ -58,11 +58,11 @@ namespace portaljuridicokike
             //   appId: "",
             //   appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "536234646548-vr8u8eadu7ceg75c4nlk4f8q61k87iec.apps.googleusercontent.com",
+                ClientSecret = "_QGK30NQ5jkEuSaxhtei6XKj"
+            });
         }
     }
 }
